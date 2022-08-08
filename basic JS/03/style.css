@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.score_box{
+    height: 100px;
+
+
+}
+
+.score{
+display: flex;
+align-items: center;
+justify-content: center;
+}

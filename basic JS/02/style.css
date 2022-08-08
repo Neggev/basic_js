@@ -1,0 +1,14 @@
+body{
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.card{
+    margin-top: 50px;
+    height: 200px;
+    width: 250px;
+}
+h4{
+    text-align: center;
+}

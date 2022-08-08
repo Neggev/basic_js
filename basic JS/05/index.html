@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/bulma.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- Header Start-->
+    <section class="hero is-info mb-5">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <h1 class="title">
+                    Contact list
+                </h1>
+
+            </div>
+        </div>
+    </section>
+    <!-- Header End-->
+
+    <div class="container create-task-container">
+        <div class="columns is-marginless">
+            <div class="column is-flex is-flex-direction-column">
+                
+    <!-- Add Contact container Start-->
+    <form id="form-todo" class="card mb-3 is-flex is-align-items-center is-justify-content-center">
+        <div class="card-content">
+            <div class="content">
+                <label class="label">Name</label>
+                <input type="text" name="todo" class="input name" placeholder="What is the name?">
+            </div>
+        </div>
+        <div class="card-content">
+            <div class="content">
+                <label class="label">Email</label>
+                <input type="text" name="todo" class="input email" placeholder="What is the Email?">
+            </div>
+        </div>
+        <div class="card-content task-button-container">
+            <button type="button" class="button add-contact">Add Contact</button>
+        </div>
+    </form>
+
+<!-- Add Contact container End-->
+
+<!-- Contact table container Start-->
+                    <div class="card">
+                            <div class="content is-marginless">
+                                <div id="todo-container table-container" class="list is-hoverable">
+                                    <table class="table is-bordered items-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table">
+                                            <!-- <tr class="table">
+                                            <td></td>
+                                                <td></td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+<!-- Contact table Container End-->
+
+</body>
+<script src="/JS/app.js"></script>
+
+</html>
